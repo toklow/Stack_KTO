@@ -5,7 +5,7 @@ public class Stack<T> {
     private ArrayDeque<T> aDeque;
 
     public Stack() {
-        aDeque = (ArrayDeque<T>) new ArrayDeque<String>();
+        aDeque = new ArrayDeque<>();
     }
 
     public void Add(T newElement) {
